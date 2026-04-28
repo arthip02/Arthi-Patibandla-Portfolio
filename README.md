@@ -1,7 +1,8 @@
-Computers, Sound And Music 001 Spring 2026
-Assignment-2
+# Computers, Sound And Music 001 Spring 2026
 
-# Bell 103 Modem Decoder
+# Assignment-2
+
+## Bell 103 Modem Decoder
 
 Name: Arthi Patibandla
 
