@@ -31,13 +31,19 @@ CHORD_LOOPS = [
 
 # MIDI note values
 NOTE_VALUES = {
-    "C": 60,
-    "D": 62,
-    "E": 64,
-    "F": 65,
-    "G": 67,
-    "A": 69,
-    "B": 71
+    "A3": 57,
+    "A#3": 58,
+    "B3": 59,
+    "C4": 60,
+    "C#4": 61,
+    "D4": 62,
+    "D#4": 63,
+    "E4": 64,
+    "F4": 65,
+    "F#4": 66,
+    "G4": 67,
+    "G#4": 68,
+    "A4": 69
 }
 
 # Major scale intervals
@@ -116,7 +122,9 @@ def generate_song():
         label_to_loop[label] = loops[i]
 
     # Random key
-    key = random.choice(["A", "B", "C", "D", "E", "F", "G"])
+    key = random.choice(list(NOTE_VALUES.keys()))
+
+    
 
     # Random tempo
     tempo = random.randint(80, 160)
